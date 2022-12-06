@@ -1,0 +1,56 @@
+header{
+    background-color: blueviolet;
+}
+.imagenes{
+    width: 150px;
+    height: 150px;
+}
+.fotoPerfil{
+    width: 180px;
+    height: 180px;
+}
+.links{
+    color: rgb(153, 59, 241);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(161, 90, 226);
+    height: 150px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li img{
+    width: 4rem;
+    height: 4rem;
+    margin: 30px;
+}
+
+@media(max-width: 770px){
+.tarjeta{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+}
+}
+@media(max-width: 550px){
+    footer ul li img{
+        width: 3rem;
+        height: 3rem;
+        margin: 20px;
+    }
+}
+@media(max-width: 420px){
+    /* .tamaño{
+        width: 50%;
+    } */
+
+}

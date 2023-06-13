@@ -10,7 +10,11 @@ header{
     height: 180px;
 }
 .links{
-    color: rgb(153, 59, 241);
+    color: rgb(162, 114, 206);
+}
+.ver{
+ font-size: small;
+ color: rgb(32, 32, 32);
 }
 footer{
     display: flex;

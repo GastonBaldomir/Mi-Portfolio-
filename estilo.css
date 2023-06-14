@@ -48,7 +48,7 @@ header{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: blueviolet;
+    background-color: rgb(161, 90, 226);
     height: 150px;
 }
 footer ul{

@@ -28,6 +28,7 @@ header{
     width: 200px;
     border-radius: 10px;
     border: solid #9c9c9c 1px;
+    margin: 10px;
 }
 .contenedorCards{
     width: 70%;
@@ -43,6 +44,7 @@ header{
     border: solid #9c9c9c 3px;
     border-radius: 10px;
     padding: 10px;
+    margin: 10px;
     
 }
 footer{
@@ -122,8 +124,6 @@ footer ul li img{
     }
 }
 @media(max-width: 420px){
-    /* .tamaño{
-        width: 50%;
-    } */
+    
 
 }

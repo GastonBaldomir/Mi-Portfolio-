@@ -47,6 +47,9 @@ header{
     margin: 10px;
     
 }
+.imgBack{
+    background-image: url('Imagenes/diseno-banner-vectorial-tecnologia-ilustracion-patron-geometrico-sobre-fondo-azul-oscuro-concepto-moderno-tecnologia-digital-alta-tecnologia-comunicacion-internet-abstracta-diseno-tecnologia-cien.avif');
+}
 footer{
     display: flex;
     justify-content: space-around;

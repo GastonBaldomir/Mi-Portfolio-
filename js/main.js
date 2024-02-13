@@ -39,8 +39,9 @@ class Proyecto {
   const proyecto3= new Proyecto("App de Escritorio", "C# - .NetFramework - Base de datos.", "https://github.com/GastonBaldomir/MaxiProgramaNivel2", 3, "imagenes/Captura de pantalla (12).png" )
   const proyecto4= new Proyecto("Agenda de Tareas", "HTML,CSS y JS - Manejo de eventos.", "https://gastonbaldomir.github.io/agendaDeTareas/", 4, "imagenes/Mis Tareas - Google Chrome 31_7_2023 13_37_41 (2).png" )
   const proyecto5= new Proyecto("Articulos RM", "HTML,CSS y JS - Bootstrapp - Responsive.", "https://gastonbaldomir.github.io/tiendaWeb/", 5, "imagenes/Captura de pantalla Pw (10).png" )
-  const proyecto6= new Proyecto("Tienda Web", "ADO.Net - Web ASP - C# - .NetFramework", "http://tiendaweb.somee.com/", 5, "imagenes/Captura de pantalla (21).png" )
+  const proyecto6= new Proyecto("Tienda Web", "Sql - Web ASP - C# - .NetFramework", "http://tiendaweb.somee.com/", 6, "imagenes/Captura de pantalla (21).png" )
+  const proyecto7= new Proyecto("Page Fan", "Wordepress - Hosting - Mobile", "https://dev-sanloretienda.pantheonsite.io/", 7, "imagenes/Captura de pantalla (27).png" )
   
-  listaProyects.push(proyecto1, proyecto2, proyecto3, proyecto4, proyecto5, proyecto6) 
+  listaProyects.push(proyecto1, proyecto2, proyecto3, proyecto4, proyecto5, proyecto6, proyecto7) 
   crearHtml(listaProyects);
   console.log(listaProyects)

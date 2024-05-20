@@ -22,12 +22,14 @@ class Proyecto {
             </h3>
             <div>
               <img src="${img}" class=" imgCards" height="" alt="...">
-          </div>
-            <p class="m-2"> ${descripcion}</p>
-           
-            <div>
-            <a target="_blank" href="${link}" class=" btn btn-dark m-3">Ver aquí.</a>
             </div>
+            <div class="card-fondo">
+              <p class="m-2"> ${descripcion}</p>
+           
+              <div>
+              <a target="_blank" href="${link}" class=" btn btn-dark m-3">Ver aquí.</a>
+              </div>
+            </div>  
           </div>
       </div>`;
     });

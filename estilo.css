@@ -10,7 +10,8 @@ header{
     height: 180px;
 }
 .links{
-    color: rgb(178, 146, 207);
+    color: black;
+    
 }
 .ver{
  font-size: small;
@@ -47,8 +48,18 @@ header{
     margin: 10px;
     
 }
+.card-fondo{
+    background-color: #fdd8f0; 
+    border-radius: 10px;
+    padding: 2px;
+    
+}
 .imgBack{
     background-image: url('Imagenes/diseno-banner-vectorial-tecnologia-ilustracion-patron-geometrico-sobre-fondo-azul-oscuro-concepto-moderno-tecnologia-digital-alta-tecnologia-comunicacion-internet-abstracta-diseno-tecnologia-cien.avif');
+}
+.grid-certificados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer{
     display: flex;

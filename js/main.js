@@ -43,7 +43,8 @@ class Proyecto {
   const proyecto5= new Proyecto("Articulos RM", "HTML,CSS y JS - Bootstrapp - Responsive.", "https://gastonbaldomir.github.io/tiendaWeb/", 5, "imagenes/Captura de pantalla Pw (10).png" )
   const proyecto6= new Proyecto("Tienda Web", "Sql - Web ASP - C# - .NetFramework", "http://tiendaweb.somee.com/", 6, "imagenes/Captura de pantalla (21).png" )
   const proyecto7= new Proyecto("Page Fan", "Wordepress - Hosting - Mobile", "https://dev-sanloretienda.pantheonsite.io/", 7, "imagenes/Captura de pantalla (27).png" )
+  const proyecto8= new Proyecto("Tienda Coder", "React Js - Firebase - React Hook Form", "https://react-coder-phi.vercel.app/", 8, "imagenes/Captura de pantalla (29).png" )
   
-  listaProyects.push(proyecto1, proyecto2, proyecto3, proyecto4, proyecto5, proyecto6, proyecto7) 
+  listaProyects.push(proyecto1, proyecto2, proyecto3, proyecto4, proyecto5, proyecto6, proyecto7,proyecto8) 
   crearHtml(listaProyects);
   console.log(listaProyects)
